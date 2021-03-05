@@ -1,0 +1,74 @@
+h1{
+    font-size:80px;
+    background-color: rgb(152, 152, 236);
+    color:crimson;
+    
+}
+#a1{
+    background-image: url("https://www.mlive.com/resizer/6fHa2N1PKqLSDREwynnWgTTpTQg=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/expo.advance.net/img/67bd0c7316/width2048/4a0_12.jpeg")
+}
+img{
+    height:5cm;
+    width:5cm
+}
+a{
+    color:grey;
+    font-size: 50px
+}
+.common{
+    margin-top: auto
+}
+#con{
+    background-image: url("https://www.libraryjournal.com/binaries/content/gallery/23921213284_08f2f45b76_c.jpg");
+}
+#achyut{
+    height:fit-content;
+    width:auto
+}
+.links>a{
+    float: left;
+  display: inline-block;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background-color: #4C8331;
+}
+table{
+    border:2px;
+    font-size: 20px;
+    background-color: cornsilk;
+}
+#apple{
+    background-color: chocolate;
+}
+#xyz{
+    background-image: url("https://pioneerinstitute.org/wp-content/uploads/poets-collage-complete.jpg")
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 50px
+}
+#grapes{
+    background-color:chocolate
+}
+#wy120{
+    background-color: cornflowerblue;
+}
+#q8{
+    background-color: cornflowerblue;
+}
+.ops{
+    background-color: cyan;
+}
+#home{
+    position: absolute;
+  right: 150px;
+  width: 120px;
+  height: 60px;
+  border: 3px solid green;
+  background-color: darkgreen;
+    
+}
