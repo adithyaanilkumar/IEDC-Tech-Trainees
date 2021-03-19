@@ -1,0 +1,46 @@
+body
+{
+   margin-right: 0px;
+   overflow: hidden;
+    
+}
+
+.banner
+{
+
+
+   background-color: #264653;
+   padding-top: 5vw;
+   padding-bottom: 9vw;
+}
+
+.banner-txt
+{
+    color: white;
+
+}
+
+
+/* font size for h1 in banner */
+.banner-txt h1
+{
+    font-size: 5vw;
+}
+
+/* banner height  */
+
+
+
+/* vertically center */
+.center
+ {
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+   
+  }
+
+  .banner-img
+  {
+      width: 100%;
+  }
