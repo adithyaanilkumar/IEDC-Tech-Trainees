@@ -2,6 +2,7 @@ body
 {
    margin-right: 0px;
    overflow: hidden;
+   font-family: 'Rubik';
     
 }
 
@@ -9,14 +10,14 @@ body
 {
 
 
-   background-color: #264653;
+   background-color: #FFE5B4;
    padding-top: 5vw;
    padding-bottom: 9vw;
 }
 
 .banner-txt
 {
-    color: white;
+    color:#383838;
 
 }
 
@@ -34,7 +35,7 @@ body
 /* vertically center */
 .center
  {
-    display: flex;
+    display: inline-block;
      justify-content: center; 
     align-items: center;
    
