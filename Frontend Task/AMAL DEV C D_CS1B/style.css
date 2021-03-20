@@ -57,3 +57,34 @@ body
 {
     font-size: 18px !important;
 }
+
+
+
+
+
+
+
+
+
+/* EXPLORE */
+.explore
+{
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* SEARCH BOX */
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.card
+{
+    background-color: transparent !important;
+}
