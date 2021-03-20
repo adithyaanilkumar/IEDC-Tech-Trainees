@@ -71,6 +71,7 @@ body
 {
     width: 50%;
     margin-left: 25%;
+    
 }
 
 /* SEARCH BOX */
@@ -88,3 +89,27 @@ body
 {
     background-color: transparent !important;
 }
+
+/* BOOK SEARCH */
+.row-ex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 45px;
+    justify-content: center;
+
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .book-col {
+    /* flex: 25%; */
+    /* max-width: 25%; */
+    padding: 0 45px;
+    
+  }
+  
+  .book-col img {
+      width: 55%;
+    margin-top: 45px;
+    vertical-align: middle;
+  }
+  
