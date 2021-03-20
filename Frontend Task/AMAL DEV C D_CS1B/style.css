@@ -1,7 +1,7 @@
 body
 {
    margin-right: 0px;
-   overflow: hidden;
+   overflow-x: hidden; 
    font-family: 'Rubik';
     
 }
@@ -11,12 +11,13 @@ body
 
 
    background-color: #FFE5B4;
-   padding-top: 5vw;
-   padding-bottom: 9vw;
+   padding-top: 10px;
+   padding-bottom: 70px;
 }
 
 .banner-txt
 {
+    
     color:#383838;
 
 }
@@ -25,10 +26,11 @@ body
 /* font size for h1 in banner */
 .banner-txt h1
 {
-    font-size: 5vw;
+    font-size: 8vw;
+    padding-top: 9vw;
 }
 
-/* banner height  */
+
 
 
 
@@ -45,3 +47,13 @@ body
   {
       width: 100%;
   }
+
+
+.navbar-brand
+{
+    font-size: 20px !important;
+}
+.nav-link
+{
+    font-size: 18px !important;
+}
