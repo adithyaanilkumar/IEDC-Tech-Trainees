@@ -65,12 +65,20 @@ body
     text-align: center;
 }
 
-.section-2
+.section-2 , .section-3
 {
     background-color:antiquewhite;
 }
 
-
+.features p
+{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
 
 
 
