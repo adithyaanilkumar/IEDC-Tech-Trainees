@@ -1,0 +1,399 @@
+body{
+    padding: 0;
+    margin:0 ;
+    
+
+}
+.top{
+    display: flex;
+
+}
+.top img{
+    height: 100px;
+    width: 130px;
+    padding-left: 650px;
+}
+.top form{
+    padding-left: 600px;
+    padding-top: 20px;
+}
+#login{
+    border-radius: 15px;
+    background: rgb(38, 97, 173);
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    
+    align-items: center;
+
+}
+
+
+.nav-bar {
+    background: rgb(38, 97, 173);
+    text-align: right;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    clear: left;
+  }
+  .nav-bar ul {
+    display: inline-block;
+    list-style: none;
+    margin-right: 350px;
+  }
+  .nav-bar ul li {
+    text-align: center;
+    float: left;
+    width: 70px;
+    margin: 10px;
+    margin-right: 70px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+  }
+  .nav-bar ul li a {
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .Home,
+  .nav-bar ul li:hover {
+    background: rgb(123, 164, 224);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+  }
+
+
+.top-text{
+    background: rgb(228, 72, 72);
+    color: white;
+     font-size: 24px;
+     padding-left: 40px;
+     border: 1px solid black;
+     height: 50px;
+     text-align: center;
+    
+
+     
+
+}
+.img{
+    width: 100%;
+
+}
+
+  #img
+  {
+      
+      width: 1520px;
+      height: 600px;
+
+    }
+    .box{
+        height: 450px;
+        width: 400px;
+        background: white;
+        opacity: 0.8;
+        position: relative;
+        margin-top: -35%;
+        margin-left: 70%;
+
+        
+    }
+    .box h1{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .box p{
+        font-size: 28px;
+        padding-left: 10px;
+        
+    }
+    .search{
+        height: 70px;
+        width: 350px;
+        background:rgb(38, 97, 173) ;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 20px;
+        opacity: 0.9;
+        position: relative;
+        margin-top: -20%;
+        margin-left: 10%;
+        display: flex;
+
+    }
+ 
+    #search{
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        padding-left: 10px;
+
+
+
+    }
+    #go{
+        border: none;
+        outline: none;
+        font-size: 20px;
+        border-radius: 10px;
+        width: 70px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .content{
+        margin-top: 300px;
+        margin-left: 100px;
+
+    }
+    .content2{
+        display: flex;
+        
+    }
+    .content h1{
+        text-align: center;
+        font-weight: bold;
+        color: rgb(57, 184, 235);
+        font-family: sans-serif;
+
+
+    }
+    .content p {
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 150px;
+
+
+    }
+
+.gradient{
+    background: linear-gradient(to bottom , rgb(191, 230, 236) , white);
+}
+
+
+
+  .content .imgcontent img{
+    float: right;
+    height: 400px;
+    width: auto;
+  }
+  .box1{
+      background: rgb(120, 185, 211);
+      width: 1380px;
+      margin-left: 100px;
+      margin-top: 50px;
+      margin-right: 100px;
+      height: 40px;
+     
+  }
+  .box1 h2{
+      font-family: sans-serif;
+      padding-left: 75%;
+      color: rgb(11, 96, 117);
+  }
+  .books{
+      display: flex;
+      height: 360px;
+      width: 1380px;
+      margin-left: 100px;
+      margin-top: 50px;
+      margin-right: 100px;
+      padding-left: 10px;
+      padding-top: 10px;
+      
+
+  }
+  .books .book1{
+      height: 330px;
+      margin-top: 10px;
+      margin-left: 10px;
+      border: 1px solid rgb(134, 134, 134);
+      width: 200px;
+      padding-left: 13px;
+
+  }
+
+
+
+
+  .books .book1 .boxtop{
+      display: flex;
+      padding-left: 30px;
+
+  }
+  .books .book1 .boxtop img{
+      height: 30px;
+      width: auto;
+      padding-top: 8px;
+      padding-left: 45px;
+  }
+
+
+
+
+  .books .book1 img{
+      height: 140px;
+      width: auto;
+      padding-left: 40px;
+  }
+  .book1 h1{
+      text-align: center;
+      color:rgb(11, 96, 117) ;
+  }
+  .books .book1 p{
+      font-size: 18px;
+      color: rgb(75, 71, 71);
+  }
+  .books .book1 p a{
+      text-decoration: none;
+      font-weight: bold;
+      padding-left: 40px;
+      color:rgb(45, 159, 224);;
+     
+  }
+
+
+
+
+
+
+
+
+  .box-1{
+    height: 300px;
+    width: 1100px;
+    margin-left: 200px;
+    margin-top: 100px;
+  
+  }
+  
+  .box-1 img{
+   
+    height: 300px;
+    width: auto;
+    padding-left: 60%;
+  
+  
+  }
+  .box-1 .box-main{
+    margin-top: -376px;
+    background: linear-gradient(to right, rgb(19, 65, 219) , rgb(6, 43, 145) );
+    opacity: 0.9;
+    height: 350px;
+    width: 1100px;
+    border-radius: 15px;
+  }
+  .box-main .box-2 h1{
+    color: white;
+    padding-left: 300px;
+    padding-top: 50px;
+  }
+  
+  .main-box{
+    display: flex;
+    margin-left: 100px;
+  }
+  
+  .box-3{
+    margin-left: 20px;
+    color: white;
+   
+    padding-right: 20px;
+  
+  }
+  .box-3 h2{
+     
+      color: white;
+      font-size: larger;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      padding-left: 400px;
+  }
+  .box-3 p{
+    font-size: 18px;
+  }
+  
+  #learnmore{
+      margin-left: 300px;
+      margin-top: 80px;
+    height: 50px;
+    width: 200px;
+    background: rgb(38, 38, 182) ;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    outline: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    
+  }
+  
+  .box4{
+    margin-left: 50px;
+    color: white;
+    
+    padding-right: 20px;
+  
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  .container{
+      height: 400px;
+      width: 1520px;
+      background: rgb(38, 97, 173);
+      display: flex;
+      
+  }
+  .container .left1{
+      margin-top: 60px;
+      margin-left: 200px;
+
+  }
+  .container .left1 p{
+      font-size: 24px;
+      color: white;
+
+  }
+
+  .container .left2{
+    margin-top: 60px;
+    margin-left: 400px;
+
+}
+.container .left2 p{
+    font-size: 24px;
+    color: white;
+    
+}
+.container .right{
+    padding-left: 300px;
+    padding-top: 40px;
+
+}
+.container .right h1{
+    text-align: center;
+    color: white;
+}
+.container .right img{
+    height: 250px;
+    width: auto;
+}
