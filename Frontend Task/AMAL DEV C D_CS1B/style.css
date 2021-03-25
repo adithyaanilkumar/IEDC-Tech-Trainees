@@ -65,10 +65,10 @@ body
     text-align: center;
 }
 
-.section-2 , .section-3 , .section-4
+.section-2 , .section-3 , .section-4 , .section-5
 {
     background-color:antiquewhite;
-    padding: 3%;
+    padding: 5%;
 }
 
 .features p
