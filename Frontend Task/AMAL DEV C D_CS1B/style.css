@@ -209,3 +209,21 @@ body
     /* display:none; */
 }
 
+
+
+
+/* card */
+.card-b
+{
+  height: 100%;
+  width: 60%;
+}
+.card-adj
+{
+  padding: 5%;
+  padding-bottom: 8%;
+}
+card-text
+{
+  font-size: 18px;
+}
