@@ -57,7 +57,10 @@ body
 {
     font-size: 18px !important;
 }
-
+.navbar-custom
+{
+  background-color: #FFE5B4;
+}
 /* WHAT IS LIBRARIAL */
 .about
 {
