@@ -227,3 +227,22 @@ card-text
 {
   font-size: 18px;
 }
+.gen-round
+{
+  width: 50%;
+  background-color: white;
+  padding: 10%;
+}
+.gen-round p
+{
+  font-size: 20px;
+}
+.gen-col
+{
+  text-align: center;
+  padding: 5%;
+}
+caption
+{
+  font-weight: bolder;
+}
