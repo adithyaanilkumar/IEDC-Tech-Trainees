@@ -281,3 +281,17 @@ caption
 {
   padding-bottom: 4%;
 }
+.card-blog
+{
+
+  height: 100%;
+  width: 50%  !important;
+  margin:0 auto;
+}
+@media (max-width: 575.98px) {.card-b {width:100%;} }
+@media (max-width: 575.98px) {.card-blog {width:100% !important;} }
+
+
+
+
+
