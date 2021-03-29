@@ -1,0 +1,50 @@
+table, th,td
+{border:none;}
+
+.clr a
+{text-decoration:none;
+color:white;}
+
+.head h2
+{font-weight:bold; 
+margin-left:50px;
+line-height:30px;
+text-align:left;
+ font-size:20px;
+ margin-top:30px;}
+
+ .head p
+ {font-size:16px;
+ margin-left:50px;
+ text-align:left;}
+ 
+ 
+.head a
+{border:1px solid #fff5cf;
+background:#fff5cf;
+padding:10px;color:rgb(6, 128, 71);
+text-decoration:underline;}
+
+.back
+{background:#753b12;}
+
+
+.social img
+{border:2px solid #fff5cf;
+border-radius:60%;
+padding:10px;
+margin-left:10px;}
+
+.head2
+{background:#f6f6f6;
+text-align:center;
+}
+
+.head2 p
+{line-height:25px;
+margin-left:100px;}
+
+.head2 h2
+{margin-left:100px;}
+
+.head2 input{margin: 10px 0;}
