@@ -217,8 +217,10 @@ body
 {
   height: 100%;
   width: 60%;
-  margin:0 auto
+  margin:0 auto;
 }
+@media (max-width: 575.98px) {.card-b {width:100%;}  }
+
 .card-adj
 {
   padding: 5%;
