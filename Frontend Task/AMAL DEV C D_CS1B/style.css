@@ -252,3 +252,32 @@ caption
 {
   font-weight: bolder;
 }
+
+
+/* *****************************************COMMUNITY******************************************* */
+
+.write {
+  display: block;
+  position: fixed;
+  bottom: 75px;
+  right: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#383838;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.write:hover {
+  background-color: #555;
+}
+
+/* blog */
+.b-post
+{
+  padding-bottom: 4%;
+}
