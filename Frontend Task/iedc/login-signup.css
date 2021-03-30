@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("./images/books-1655783_1920.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+.login_box {
+  width: 320px;
+  height: 420px;
+  background: rgba(255, 255, 255, 0.863);
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 60px 30px;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  right: calc(50% - 40px);
+}
+h1 {
+  margin-bottom: 10px;
+  padding: 0 0;
+  text-align: center;
+  font-size: 22px;
+}
+.login_box p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.login_box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login_box input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000;
+  font-size: 16px;
+}
+.login_box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #d22938;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.login_box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
