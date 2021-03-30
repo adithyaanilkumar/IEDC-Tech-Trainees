@@ -290,6 +290,8 @@ caption
 }
 @media (max-width: 575.98px) {.card-b {width:100%;} }
 @media (max-width: 575.98px) {.card-blog {width:100% !important;} }
+@media (max-width: 575.98px) {.b-post {padding-bottom: 10%;} }
+
 
 
 
