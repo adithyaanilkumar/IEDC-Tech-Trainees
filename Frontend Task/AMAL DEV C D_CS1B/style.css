@@ -10,7 +10,7 @@ body
 {
 
 
-   background-color: #FFE5B4;
+   background-color:skyblue;
    /* padding-top: 10px; */
    padding-bottom: 2%;
 }
@@ -59,7 +59,7 @@ body
 }
 .navbar-custom
 {
-  background-color: #FFE5B4;
+  background-color:white;
 }
 /* WHAT IS LIBRARIAL */
 .about
@@ -70,7 +70,7 @@ body
 
 .section-2 , .section-3 , .section-4 , .section-5
 {
-    background-color:antiquewhite;
+    background-color:lightcyan;
     padding: 5%;
 }
 
@@ -88,7 +88,7 @@ body
 /* STATS */
 .counter-box {
     display: block;
-    background: #FFE5B4;
+    background: lightskyblue;
     padding: 40px 20px 37px;
     text-align: center;
     border-radius: 5px;
@@ -236,6 +236,7 @@ body
 /* gnere */
 .gen-round
 {
+  cursor: pointer;
   width: 50%;
   background-color: white;
   padding: 10%;
