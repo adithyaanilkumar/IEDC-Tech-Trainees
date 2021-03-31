@@ -1,4 +1,42 @@
-
+.dropbtn {
+    background-color: #0d0e0d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    color:red;
+  }
 body{
  background-image:url(https://static.wixstatic.com/media/cadde2_15c60dfda6754752b2c6d07165a08a8e~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_687,h_515,al_c,q_80,usm_0.66_1.00_0.01/cadde2_15c60dfda6754752b2c6d07165a08a8e~mv2_d_4032_3024_s_4_2.jpg);
 }
@@ -19,6 +57,7 @@ body{
   width:200px;
   padding: 5px 5px 5px 5 px;
   word-wrap: break-word;
+  background-color: rgba(237, 237, 237, 0.904);
 
 }
 .con .box{
@@ -34,8 +73,9 @@ body{
   
 }
 .con .box h3{
-  color: rgb(212, 190, 190);
+  color: rgb(45, 88, 67);
   text-decoration: none !important;
+  
 }
 .con .box p{
   text-align: center;
@@ -47,7 +87,7 @@ body{
     position: fixed;
     /*Stays in place */
     background: linear-gradient(90deg, rgba(237,237,237,0.2976540958180147) 3%, rgba(53,47,66,1) 92%);
-    /green/
+    
     overflow-x: hidden;
     color:#fff;
     /*for Disabling horizontal scroll */
@@ -81,9 +121,8 @@ border-bottom-left-radius: 22px;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-body{
-  background: #f2f2f2;
-}
+
+
 nav{
   background: #171c24;
   display: flex;
@@ -197,7 +236,7 @@ nav .search-icon{
     line-height: 40px;
     margin: 30px 0;
   }
-  nav .nav-items li a{
+  nav .nav-items li a, select option{
     font-size: 20px;
   }
   nav form{
