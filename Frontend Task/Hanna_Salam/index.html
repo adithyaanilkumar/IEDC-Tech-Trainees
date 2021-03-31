@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login form</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<body>
+    <div class="body"></div>
+    <div class="grad"></div>
+    <div class="header">
+        <div><big>Papyrus</big> <br> <small><small> Public Library</small></small> </div>
+    </div>
+    <br>
+    <div class="login">
+        <form id="login-form">
+            <input type="text" placeholder="email" id="login-email"><br>
+            <input type="password" placeholder="password" id="login-password"><br>
+            <input type="submit" value="Login" id="submit">
+        </form>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyBncNtYp2J6qimz64jGjjbNm6fZ3_QW63c",
+        authDomain: "iedc-library.firebaseapp.com",
+        projectId: "iedc-library",
+        storageBucket: "iedc-library.appspot.com",
+        messagingSenderId: "170939532506",
+        appId: "1:170939532506:web:3811efc6fcc8af80bad1e3"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+
+            // uodate firestore sttings
+        db.settings({timestampsInSnapshots: true});
+        </script>
+        <script src ="auth.js"></script>
+
+</body>
