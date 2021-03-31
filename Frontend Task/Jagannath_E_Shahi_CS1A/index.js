@@ -3,7 +3,7 @@ async function hehe() {
     var k = document.getElementById("con");
     
     
-      var data = await fetch("https://www.googleapis.com/books/v1/volumes?q=subject:horror&startIndex=0&maxResults=15");
+      var data = await fetch("https://www.googleapis.com/books/v1/volumes?q=subject:horror&startIndex=0&maxResults=30");
       const response =  await data.json();
    for (var i = 0; i < response.items.length; i+=1) {
    
@@ -17,13 +17,13 @@ async function hehe() {
     <div class="box">
          <div class="image">
          <a href="${lnk}">
-           <div class="pic"> <img src="${bookImg}" alt="Sorry Image not available" class="picimg"> </div>
-           <h3 class="name">${title}</h3></a>
+           <div class="pic"> <img src="${bookImg}" alt="Sorry Image not available" class="picimg"> </div></a>
+           <h3 class="name">${title}</h3>
          </div>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere.<br></p>
      </div>
-    `
-    k.innerHTML+= htmlcard
+    `;
+    k.innerHTML+= htmlcard;
 
    }
 
@@ -55,6 +55,7 @@ async function hehehe() {
       var data = await fetch("https://www.googleapis.com/books/v1/volumes?q="+qr );
       const response =  await data.json();
       k.innerHTML="";
+      if(response.items.length==0)k.innerHTML="sorry cannot find any relevant results";
    for (var i = 0; i < response.items.length; i+=1) {
    
       
@@ -67,12 +68,12 @@ async function hehehe() {
      <div class="box">
           <div class="image">
           <a href="${lnk}">
-            <div class="pic"> <img src="${bookImg}" alt="Sorry Image not available" class="picimg"> </div>
-            <h3 class="name">${title}</h3></a>
+            <div class="pic"> <img src="${bookImg}" alt="Sorry Image not available" class="picimg"> </div></a>
+            <h3 class="name">${title}</h3>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere.<br></p>
       </div>
-     `
+     `;
      k.innerHTML+= htmlcard;
 
    }};
