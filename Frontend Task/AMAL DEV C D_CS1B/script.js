@@ -40,4 +40,7 @@ $(document).ready(function() {
     
     });
 
-    AOS.init();
+    AOS.init({
+        duration: 1000,
+        offset: 200,
+    });

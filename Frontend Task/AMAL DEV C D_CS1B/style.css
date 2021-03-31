@@ -172,6 +172,7 @@ body
 .card
 {
     background-color: transparent !important;
+    cursor: pointer;
 }
 
 /* BOOK SEARCH */
