@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Cove</title>
+        <meta charset="utf-8">
+        <meta name="description" content="This is an online website for shopping books">
+        <link href="css/home.css" rel="stylesheet" type="text/CSS">
+    </head>
+    <body>
+        <div id="backdrop">
+        </div>
+        <section class="navigation">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for novel or academic..">
+            <nav>
+               <ul id="myUL">
+                  <li><a href="index.html" class="home">home</a></li>
+                  <li><a href="Novel.html" class="home"> novels</a></li>
+                  <li><a href="Academic.html" class="home"> academic reads</a></li>
+                  <li>contact us</li>
+               </ul>
+            </nav>
+        </section>
+        <div id="content">
+            <div id="title">
+                <h3>RULES</h3></caption>
+            </div>
+            <section id="text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+            </section>
+        </div>
+    </body>
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i, txtValue;
+          input = document.getElementById('myInput');
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myUL");
+          li = ul.getElementsByTagName('li');
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+    <footer>
+        <span>
+            <img src="instagram.png" alt="instagram" />
+            <img src="download1.png" alt="facebook" />
+        </span>
+    </footer>
+</html>

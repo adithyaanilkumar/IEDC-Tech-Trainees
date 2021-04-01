@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Novels</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A novel page for selecting novel books">
+        <link href="css/Novel.css" rel="stylesheet" type="css/text">
+        <style>
+            li{
+                margin:1%;
+                padding:1%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight:bold;
+                height:5px;
+                border:2px;
+                display: inline-block;
+                background-color:maroon;
+                color:whitesmoke;
+            }
+            body{
+                background-image: url(Backdrop.jpg);
+                padding: 10%;
+                border:1px #000 solid;
+                border-radius: 2%;
+            }
+            .navigation{
+                background-color: coral;
+                width:94%;
+            }
+            .links{
+                color: whitesmoke;
+                text-decoration: none;
+            }
+            .links:hover{
+                color:turquoise;
+                text-decoration: underline;
+            }
+            .books{
+                background-color:grey;
+
+            }
+            .text{
+                text-align: center;
+                color: whitesmoke;
+            }
+            #end{
+                margin-left: 40%;
+                margin-right:40%
+            }
+            #end div:nth-of-type(1){
+                background-color: whitesmoke;
+                font-size: 15px;
+            }
+            #end div:nth-of-type(4){
+                margin-left:30%;
+                margin-right:30%;
+            }
+            #heading{
+                background-color: whitesmoke;
+            }
+            #myInput {
+                background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+                background-position: 10px 12px; /* Position the search icon */
+                background-repeat: no-repeat; /* Do not repeat the icon image */
+                width: 95%; /* Full-width */
+                font-size: 16px; /* Increase font-size */
+                padding: 12px 20px 12px 40px; /* Add some padding */
+                border: 1px solid #ddd; /* Add a grey border */
+                margin-bottom: 12px; /* Add some space below the input */
+            }
+            #name{
+                background-color: coral;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="backdrop">
+            <img src="download.jpg" width="1000px" height="300px" alt="w"/>
+        </div>
+        <section class="navigation">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for novels or academic..">
+            <nav>
+                  <li class="links" style="display: inline-block;"><a href="index.html" class="links">home</a></li>
+                  <li style="display: inline-block;"><a href="Novel.html" class="links">novels</a></li>
+                  <li style="display: inline-block;"><a href="Academic.html" class="links"> academic reads</a></li>
+                  <li style="display: inline-block;">contact us</li>
+               </ul>
+            </nav>
+        </section>
+        <h2 id="heading">Novels</h2>
+        <div class="books">
+            <img src="Eragon.jpg" alt="Eragon book" />
+            <img src="eldest.jpg" alt="eldest"/>
+            <img src="stack.jpg" alt="stack"/>
+            <img src="inheritance.jpg" alt="inheritance"/>
+            <img src="brisingr.jpg" alt="brisingr"/>
+        </div>
+        <div class="books text">
+            <p>Eragon by Christopher Paolini</p>
+            <h3>IN STOCK!!</h3></p>
+        </div>
+        <div id="end">
+            <div ><p> PLEASE ENTER QUANTITY</p></div>
+            <div><input type="number" value="enter required quantity"/></div>
+            <div><input type="text" value="Enter address"/></div>
+            <div><input type="submit"/></div>
+            <div><textarea rows="10" cols="30"> please enter your valuable feedback</textarea></div>
+            <form name="myForm"id="name" action="Library.html" onsubmit="return validateForm()" method="post" required >
+                Name: <input type="text" name="fname" placeholder="Try entering without any values" >
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+    </body>
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i, txtValue;
+          input = document.getElementById('myInput');
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myUL");
+          li = ul.getElementsByTagName('li');
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+
+        function validateForm() {
+        var x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+         alert("Name must be filled out");
+         return false;
+        }
+        }
+        </script>
+    <footer>
+        <span>
+            <img src="instagram.png" alt="instagram"/>
+            <img src="download1.png" alt="facebook"/>
+        </span>
+    </footer>
+</html>

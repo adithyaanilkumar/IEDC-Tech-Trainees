@@ -1,0 +1,63 @@
+#backdrop{
+    background-image: url(download.jpg);
+    padding:10%;
+    border:1px #000 solid;
+    border-radius:2% ;
+
+}
+li{
+    margin:1%;
+    padding:1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    height: 5px;
+    border:2px;
+    display: inline-block;
+    background-color:black;
+    color:whitesmoke;
+}
+.navigation{
+    background-color: black;
+    border-radius: 5%;
+}
+.home{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.home:hover{
+    color:red;
+    text-decoration: underline;
+    border-radius:2px ;
+}
+li:hover{
+    color:red;
+    text-decoration: underline;
+    border-radius:2px ;
+    
+}
+#content{
+    background-color: lightcoral;
+}
+#title h3{
+    background-color: burlywood;
+    display: block;
+    text-decoration:underline;
+    margin: 5% 20%;
+    padding:0%;
+    border:2px red solid;
+    text-align: center;
+
+}
+#text{
+    line-height: 20px;
+}
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
