@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project library tech-team</title>
+    <link rel="stylesheet" href="syntax.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="css.html"
+          ><img src="../libraryimages/2730297-512 newest.png"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="events.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!--------Contact Us--------->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15715.4422305858!2d76.3285124!3d10.0283637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf23e14245d4694d!2sModel%20Engineering%20College!5e0!3m2!1sen!2sin!4v1617072236375!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-on">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Model Engineering College Road</h5>
+              <p>Thrikkakara, Edappally, Kochi, Kerala 682021</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+91 4567894589</h5>
+              <p>Monday to Saturday, 10AM to 9PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <span>
+              <h5>dreamygryffindor@gmail.com</h5>
+              <p>Email us your queries</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-on">
+          <form action="formhandler.php" method="POST">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter you name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email addres"
+              required
+            />
+            <input type="text" name="subject" placeholder="subject" required />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea voluptates
+        dolor modi quidem quam iure nulla<br />
+        deleniti a commodi consectetur, reprehenderit corporis culpa odit quasi!
+        Accusamus ea a nesciunt nostrum?
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>In association with @bookaholics<i class="fa fa-heart-o"></i></p>
+    </section>
+
+    <!---------JavaScript for Toggle Menu-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
