@@ -21,5 +21,5 @@ Link:https://achyuthmohan.github.io/Portfolio/
 
 ##Why this project?
 
-I'm added this project because I thought that prevoius project was not upto the mark as if I was in a hurry learning and doing it.
- But now I had learn many new and advanced things in web development including backend. So I request you to have a small look at  this.
+I'm adding this project too because I thought that prevoius project was not upto the mark as if I was in a hurry learning and doing it.
+ But now I had learnt many new and advanced things in web development including backend. So I request you to have a small look at  this too.
