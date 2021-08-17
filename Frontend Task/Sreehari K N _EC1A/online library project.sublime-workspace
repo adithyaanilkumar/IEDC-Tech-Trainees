@@ -1,0 +1,277 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"j",
+				"jpeg"
+			],
+			[
+				"BA",
+				"background-color\tproperty"
+			],
+			[
+				"CO",
+				"color\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"h",
+				"head\tTag"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"p",
+				"padding\tproperty"
+			],
+			[
+				"s",
+				"section\tTag"
+			],
+			[
+				"c",
+				"color\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11938,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/knsre/Desktop/Book World Library"
+	],
+	"file_history":
+	[
+		"/C/Users/knsre/Desktop/Book World Library/index.html",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/books.html",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/about.html",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/sign in.html",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/online library1.sublime-project",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/assets/js/app.js",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/assets/css/style.css",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/products.html",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/contact1.html",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/contact.html",
+		"/C/Users/knsre/Desktop/templatemo_546_sixteen_clothing/assets/css/templatemo-sixteen.css",
+		"/C/Users/knsre/Desktop/hgh/css/templatemo-style.css",
+		"/C/Users/knsre/Desktop/hgh/index.html",
+		"/C/Users/knsre/Desktop/library prjt/Multi-Page HTML Sites",
+		"/C/Users/knsre/Documents/index sample.html",
+		"/C/Users/knsre/Documents/style sample",
+		"/C/Users/knsre/Documents/app sample",
+		"/C/Users/knsre/Desktop/sign in-sign out/style1",
+		"/C/Users/knsre/Desktop/sign in-sign out/app",
+		"/C/Users/knsre/Desktop/sign in-sign out/index.html",
+		"/C/Users/knsre/Documents/web page1.html",
+		"/C/Users/knsre/Documents/index.html",
+		"/C/Users/knsre/Documents/style1",
+		"/C/Users/knsre/Documents/app",
+		"/C/Users/knsre/Desktop/sign in-sign out form/undraw_Login_re_4vu2.svg",
+		"/C/Users/knsre/Downloads/undraw_Login_re_4vu2.svg",
+		"/C/Users/knsre/Downloads/login pic.xml",
+		"/C/Users/knsre/Documents/portfolio html",
+		"/C/Users/knsre/Documents/html sample 1"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.3333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "online library project.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

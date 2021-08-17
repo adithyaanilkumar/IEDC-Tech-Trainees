@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width-device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="le=edge">
+        <title>Single Books</title>
+
+        
+
+        
+        <link rel="stylesheet" type="text/css" href="library/lib1.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <section id ="nav-bar">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="l1.png">
+                </div>
+                    <nav>
+                        
+                        
+                        <ul class="navbar-nav  ml-auto" id="MenuItems">
+                  
+                            <li><a href="lib1.html" aria-current="page">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Shop</a></li>
+                        </ul>
+                      
+                       
+                    </nav>
+                    <img src="qw.png" class="menu" width ="20px" onclick="menutoggle()">
+                    
+            </div>
+        </section>
+          
+        </div>
+        <!-------Single Product details---------->
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            
+            <img src="l23.jpg" width="45%" id="wimpy">
+         
+        </div>
+        <div class="col-2"><
+            <p>Home/ Book</p>
+            <h1>The Diary Of A Wimpy Kid</h1>
+            <input type="number" value="1">
+            <a href="" class="btn">Add To Cart</a>
+            <h3>Book Details</h3>
+            <br>
+            <p>Diary of a Wimpy Kid is a series of fiction books written by the American author and cartoonist Jeff Kinney. All the main books are the journals of the main character, Greg Heffley. Befitting a teen's diary, the books are filled with simple drawings of Greg's daily adventures.</p>
+        </div>
+    </div>
+</div>        
+  <div class="small-container">
+      <div class="row row-2">
+          <h2>Related products</h2>
+          <p>View More</p>
+      </div>
+  </div>
+           <!---------------- books------------------------->
+           <div class="small-containers">
+              
+             
+             <div class="row">
+                 <div class="col-4">
+                     <img src="l27.webp">
+                     <h4>Think Like A Monk</h4>
+                     <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                     </div>
+                 </div>
+                 <div class="col-4">
+                  <img src="l28.jpg">
+                  <h4>Ikigai</h4>
+                  <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                  </div>
+                 </div>
+                 <div class="col-4">
+                     <img src="l30.jpg">
+                     <h4>The 5 AM Club</h4>
+                     <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                     </div>
+                    </div>
+                    
+                 <div class="col-4">
+                  <img src="l29.jpg">
+                  <h4>A Gentleman In Moscow</h4>
+                  <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                  </div>
+                 </div>
+                 
+               </div>
+               
+ </div>
+        
+
+        <!--------Footer-------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download app for android and ios</p>
+                        <div class="app-logo">
+                            <img src="a6.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="l1.png">
+                        
+                    </div>
+                    
+                    <div class="footer-col-3">
+                        <h3>Oppurtunities</h3>
+                        <ul>
+                            <li>Subscription agents</li>
+                            <li>Advertisers and Corporate Planners</li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Help & Support</h3>
+                        <ul>
+                            <li>Contact us</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2021 - Tale Library</p>
+            </div>
+        </div>
+        <script>
+            var MenuItems=document.getElementById("MenuItems")
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight = "200px"
+                }
+                else{
+                    MenuItems.style.maxHeight = "0px"
+                }
+            }
+        </script>
+        <script>
+            var BookImg =document.getElementById("wimpy");
+            
+        </script>
+    </body>
+</html>

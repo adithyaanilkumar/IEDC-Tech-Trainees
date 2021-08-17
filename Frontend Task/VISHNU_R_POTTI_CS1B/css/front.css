@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main img{
+    width: 1500px;
+}
+
+.content{
+    margin-top: -43%;
+    color: white;
+}
+.content h1{
+    padding-left: 220px;
+    font-size: 50px;
+    
+}
+#quote1{
+    font-size: 28px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#quote{
+    font-size: 20px;
+    padding-left: 700px;
+}
+#content2{
+    font-size: 24px;
+    padding-left: 200px;
+    padding-top: 80px;
+}
+.content form{
+    padding-left: 200px;
+}
+
+#button{
+    height: 60px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 100px;
+    background: linear-gradient(to left , rgb(64, 80, 219) , rgb(188, 71, 218));
+    font-size: 20px;
+    
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+#button:hover{
+    background: linear-gradient(to right , rgb(95, 81, 218) , rgb(192, 81, 219));
+}

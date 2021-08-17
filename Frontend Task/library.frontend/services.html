@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project library tech-team</title>
+    <link rel="stylesheet" href="syntax.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="css.html"
+          ><img src="../libraryimages/2730297-512 newest.png"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="events.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Room Of Requirements</h1>
+    </section>
+    <!------------------Services----------------->
+    <section class="services">
+      <h1>Services We Offer</h1>
+      <p>
+        We offer a variety of services no matter which domain you are from. You
+        just have to wave your wands and spread the rhythm of alahamora!!
+      </p>
+      <div class="row">
+        <div class="service-on">
+          <h3>For Students</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+            consequatur cum similique numquam deleniti, earum culpa molestiae
+            minima dolorem ut nisi iste, vel doloribus veritatis nobis
+            voluptatum eius itaque placeat!
+          </p>
+        </div>
+        <div class="service-on">
+          <h3>For Faculity/Staff</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+            consequatur cum similique numquam deleniti, earum culpa molestiae
+            minima dolorem ut nisi iste, vel doloribus veritatis nobis
+            voluptatum eius itaque placeat!
+          </p>
+        </div>
+        <div class="service-on">
+          <h3>For Community Clubs</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+            consequatur cum similique numquam deleniti, earum culpa molestiae
+            minima dolorem ut nisi iste, vel doloribus veritatis nobis
+            voluptatum eius itaque placeat!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!----------Books---------->
+    <section class="books">
+      <h1>Find Your Favourites Here</h1>
+      <p>
+        Be it academics,dealing with flumoxing research papers,going through
+        that wild realm of fantasy,<br />
+        reading some fun stuff to charge your-self up,spirital pursuit or
+        self-help we are always there for you.
+      </p>
+      <div class="row">
+        <div class="books-on">
+          <img src="../libraryimages/photo-1548048026-5a1a941d93d3.jpg" />
+          <div class="layer">
+            <h3>Fiction</h3>
+          </div>
+        </div>
+        <div class="books-on">
+          <img src="../libraryimages/default-book-shops-95academics.webp" />
+          <div class="layer">
+            <h3>Academics</h3>
+          </div>
+        </div>
+        <div class="books-on">
+          <img src="../libraryimages/non fiction.jpg" />
+          <div class="layer">
+            <h3>Non-Fiction</Non-Fiction></h3>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea voluptates
+        dolor modi quidem quam iure nulla<br />
+        deleniti a commodi consectetur, reprehenderit corporis culpa odit quasi!
+        Accusamus ea a nesciunt nostrum?
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>In association with @bookaholics<i class="fa fa-heart-o"></i></p>
+    </section>
+
+    <!---------JavaScript for Toggle Menu-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
